@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("https://test-simple-get-post-server/api/message.onrender.com")
+      .get("https://test-simple-get-post-server.onrender.com/api/message")
       .then((response) => {
         setMessage(response.data.message);
       })
